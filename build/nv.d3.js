@@ -2894,7 +2894,7 @@ nv.models.bulletChart = function() {
 
     var orient = 'left' // TODO top & bottom
         , reverse = false
-        , margin = {top: 5, right: 40, bottom: 20, left: 120}
+        , margin = {top: 5, right: 10, bottom: 20, left: 50}
         , ranges = function(d) { return d.ranges }
         , markers = function(d) { return d.markers ? d.markers : [] }
         , measures = function(d) { return d.measures }
